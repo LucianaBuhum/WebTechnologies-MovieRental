@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WannabeNetflix</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS stylesheets -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;0,900;1,900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/1ac92ff819.js"></script>
+</head>
+
+<body>
+
+  <section class = "colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="">WannabeNetflix</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="catalogue.html">Catalogue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Wannabe but still better than Netflix</h1>
+          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fas fa-film"></i> Browse</button>
+      <!--    <button type="button" class="btn btn-lg btn-outline-light download-btn"><i class="fab fa-google-play"></i> Download</button> -->
+        </div>
+        <div class="col-lg-6">
+          <img src="images/movies.png" alt="iphone-mockup" class="title-image">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class ="white-section" id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-door-open fa-5x icon"></i>
+        <h3>Open 24/7</h3>
+        <p>Stop by any time of the day! The door is always open!</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-users fa-5x icon"></i>
+        <h3>Nice community</h3>
+        <p>Get a movie recommendation from the other people.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Press -->
+
+  <section class = "colored-section" id="press">
+    <img class="press-logo" src="images/Blockbuster.png" alt="tc-logo">
+    <img class="press-logo" src="images/imdb.png" alt="tnw-logo">
+    <img class="press-logo" src="images/rotten.png" alt="biz-insider-logo">
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2>A Plan for every pocket of any size</h2>
+    <p>Simple and affordable prices.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Offer1</h3>
+          </div>
+          <div class="card-body">
+            <h2>offer</h2>
+            <p></p>
+            <p>small price</p>
+            <button class="btn btn-primary" type="button">Browse</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Offer 2</h3>
+          </div>
+          <div class="card-body">
+            <h2>offer</h2>
+            <p>small but bigger price</p>
+            <button class="btn btn-primary" type="button">Browse</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Offer 3</h3>
+          </div>
+          <div class="card-body">
+            <h2>offer</h2>
+            <p>bigger price</p>
+
+            <button class="btn btn-primary" type="button">Browse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class = "colored-section" id="cta">
+
+    <h3 class="cta-head">Find Your Next Favourite Movie.</h3>
+    <button class="btn btn-dark btn-lg download-btn" type="button"><i class="fas fa-film"></i> Browse</button>
+  <!--  <button type="button" class="btn btn-lg btn-outline-light download-btn"><i class="fab fa-google-play"></i> Download</button>  -->
+
+  </section>
+
+
+</body>
+
+</html>
